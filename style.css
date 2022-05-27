@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    
+font-family: Arial, Helvetica, sans-serif;
+   
+
+}
+
+
+/* **************HEADER************************ */
+
+.navbar{
+    display: flex;
+    background-color:#35424A;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-weight: 600;
+    color: white;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #A9508B ;
+    height: 10vh;
+}
+
+.navbar--ul--li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 0.7rem;
+    padding-left: 1.25rem;
+}
+
+/* açık sayfanın linki renklendirilecek*/
+
+
+/* *****************PHOTO********************* */
+
+
+.photo{
+    background-image: url("./images/showcase.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    color: white;
+
+}
+
+.photo--text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    
+}
+
+.photo--text--h2{
+    font-size: 2rem;
+}
+.photo--text--p{
+    font-size: .7rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+
+/* **********INPUT******************* */
+
+
+.input{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10vh;
+    background-color:#35424A;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+
+.input--btn{
+    color: white;
+    background-color: #E8491D;
+    line-height: 1.5rem;
+    border: none;
+    font-size: .5rem;
+    width: 4rem;
+    padding: 2px;
+}
+
+.input--txt{
+    line-height: 1.5rem;
+    font-size: .5rem;
+    width: 10rem;
+    padding-left: 2px;
+}
+
+.tools{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    height: 30vh;
+    width: 100%;
+    align-items: center;
+    align-content: space-between;
+    /* border: 1px solid red; */
+
+}
+
+.tools--img{
+    width: 40%;
+    margin-bottom: 1rem;
+    
+}
+
+.tools--html, .tools--css, .tools--graph {
+    display: flex;
+    flex-direction: column;
+    margin: auto 1rem;
+    height: 80%;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1rem;
+    /* border: 1px solid red; */
+}
+
+.tools--h4{
+    margin-bottom: 1rem;
+    font-size: 0.7rem;
+
+}
+
+.tools--p{
+    font-size: 0.5rem;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #35424A;
+    color: white;
+    font-size: 0.5rem;
+    height: 10vh;
+}
+
+.footer--img {
+    width: 15%;
+    margin-top: .5rem;
+}
+
+.middle{
+    display: flex;
+    height: 70vh;
+    font-size: 0.7rem;
+    word-spacing: 0.2rem;
+    justify-content: space-between;
+
+}
+.middle--left{
+    width: 70%;
+    margin: 1rem 1rem;
+}
+.middle--left--ptop{
+    margin-top: 1.5rem;
+}
+
+.middle--left--pbottom{
+    margin-top: 1rem;
+    background-color: #35424A;
+    padding: .5rem;
+    color: white;
+}
+
+.middle--right{
+    width: 30%;
+    margin: 1rem 1rem 1rem 1rem;
+    background-color: #35424A;
+    padding: 2rem 1rem;
+    color: white;
+    
+    height: fit-content;
+}
+
+.middle--right--p{
+    margin-top: 1rem;
+}
+
+
